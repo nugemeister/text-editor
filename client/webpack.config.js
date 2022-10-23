@@ -20,7 +20,7 @@ module.exports = () => {
     // Adding and configuring workbox plugins for a service worker and manifest file
     plugins: [
       new HtmlWebpackPlugin({
-        template: './indez.html',
+        template: './index.html',
         title: 'JATE Text Editor',
       }),
       new InjectManifest({
@@ -59,7 +59,7 @@ module.exports = () => {
           use: {
             loader: 'babel-loader',
             options: {
-              presets: ['@babel/presest-env'],
+              presets: ['@babel/preset-env'],
               plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             },
           },
