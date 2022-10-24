@@ -46,25 +46,26 @@ THEN I should have proper build scripts for a webpack application
 
 ```
 
-## Installation
-
-1. Clone down the repository onto your local machine using the `git clone` command.
-2. Ensure you have Express and Mongoose packages downloaded locally (use `npm install express` and `npm install mongoose`).
-3. Run `npm install` to install necessary packages and dependencies.
-5. From the command line, enter the following to begin the application `npm start`.
-
 <br></br>
 
 ## Usage
-1. Enter the command `npm start` to initialize the application locally.
-2. Begin running the routes in Insomnia (or a similar tool) to interface with the database.
+
+### Visit Deployed Application
+1. Visit the deployed application [here](https://nugemeister-jateapp.herokuapp.com/).
+2. You are able to use the main window to live-edit text within the application. Any edits you make will be saved as you go.
+3. For offline use, click the `install` button at the top-left of the page!
+
+### Use Locally
+1. Clone the repository onto your local machine using the `git clone` command.
+2. While in the root directory, run `npm install` to install necessary packages and dependencies.
+3. While in the root directory, enter the command `npm run start` to initialize the application locally.
+4. Navigate to http://localhost:3000 and follow the same steps listed above.
 
 <br></br>
+## Deployed Application
+> The following screenshot shows the appearance of the deployed web application.
 
-<br></br>
-## Video Demo
-> The following videos show the web application's appearance and functionality:
-
+[![Application Preview](client/src/images/jate-application-screenshot.png)
 
 ---
 
