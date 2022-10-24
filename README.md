@@ -65,7 +65,7 @@ THEN I should have proper build scripts for a webpack application
 ## Deployed Application
 > The following screenshot shows the appearance of the deployed web application.
 
-[![Application Preview](client/src/images/jate-application-screenshot.png)
+![Application Preview](client/src/images/jate-application-screenshot.png)
 
 ---
 
